@@ -47,6 +47,7 @@ And now you can begin!
 
     >>> python2.7 crawler.py -z 98029
 
+Feel free to send in pull requests. We need some test cases please :)
 
 This code was written when the two of us were still relatively new at python 
 so excuse the shittyness. This was open sourced just for keepsake, it's nothing
