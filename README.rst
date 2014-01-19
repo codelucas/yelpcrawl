@@ -17,7 +17,7 @@ Extract all restaurant data from a specific zipcode.
     ...
 
 
-Extract all restaurant data from America (all America zipcodes).
+Extract all restaurant data from America (all American zipcodes).
 
 .. code-block:: pycon
 
@@ -37,12 +37,14 @@ Installation:
 -------------
 
 ::
-    git clone https://github.com/codelucas/yelpcrawl
-    cd yelpcrawl
+
+    $ git clone https://github.com/codelucas/yelpcrawl
+    $ cd yelpcrawl
 
 And now you can begin!
 
 ::
+
     >>> python2.7 crawler.py -z 98029
 
 
@@ -51,9 +53,11 @@ so excuse the shittyness. This was open sourced just for keepsake, it's nothing
 fancy and there are definitely better scraping solutions out there.
 
 We used slower parsers like `beautifulsoup`_ and no multithreading
-because `yelp`_ would have probably rate limited us anyways :p
+because `yelp`_ would've rate limited us anyways :)
 
-- Lucas, Mathew
+By: `Lucas`_, `Mathew`_
 
 .. _`yelp`: http://www.yelp.com
 .. _`beautifulsoup`: http://www.crummy.com/software/BeautifulSoup/
+.. _`Lucas`: http://codelucas.com
+.. _`Mathew`: https://www.facebook.com/matsprehn
