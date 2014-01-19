@@ -7,7 +7,7 @@ Extract all restaurant data from a specific zipcode.
 
 .. code-block:: pycon
 
-    >>> python2.7 crawler.py -z 98029
+    $ python2.7 crawler.py -z 98029
 
     ===== Attempting extraction for zipcode < 98029 >=====
     
@@ -21,7 +21,7 @@ Extract all restaurant data from America (all American zipcodes).
 
 .. code-block:: pycon
 
-    >>> python2.7 crawler.py
+    $ python2.7 crawler.py
 
     **We are attempting to extract all zipcodes in Amerrica!**
 
