@@ -5,7 +5,7 @@ Example usage for `yelp`_ extraction.
 
 Extract all restaurant data from a specific zipcode.
 
-.. code-block:: pycon
+::
 
     $ python2.7 crawler.py -z 98029
 
@@ -19,7 +19,7 @@ Extract all restaurant data from a specific zipcode.
 
 Extract all restaurant data from America (all American zipcodes).
 
-.. code-block:: pycon
+::
 
     $ python2.7 crawler.py
 
