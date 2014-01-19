@@ -40,12 +40,13 @@ Installation:
 
     $ git clone https://github.com/codelucas/yelpcrawl
     $ cd yelpcrawl
+    $ pip install -r requirements.txt
 
 And now you can begin!
 
 ::
 
-    >>> python2.7 crawler.py -z 98029
+    $ python2.7 crawler.py -z 98029
 
 Feel free to send in pull requests. We need some test cases please :)
 
